@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+ 
+.hblanco{
+    color: #fff;
+}
+.hnegro{
+    color: #000;
+}
+.azulclaro{
+    color: rgb(100, 255, 255);
+}
+.azuldark{
+    color: rgb(82, 203, 203);
+}
+.blanco{
+    background-color: rgb(255, 248, 248);
+}
+.negro{
+    background-color: #000;
+}
+.container-fluid{
+    padding: 0;
+    backdrop-filter: blur(5px);
+}
+.main{
+    margin-top: 85px !important;
+}
+h1, h2, h4{
+    font-family: 'Rubik', sans-serif;
+
+}
+h4{
+    font-weight: 400;
+}
+.sobremi{
+    font-weight: 500;
+}
+h3{
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(82, 203, 203);
+}
+.solb{
+    color: #fff !important;
+}
+.soln{
+    color: #000 !important;
+}
+.logo{
+    height: 50px;
+}
+
+.header{
+    font-size: 20px;
+}
+.nav-item{
+    margin: 10px;
+}
+.nav-item .navopt:hover{
+    color: rgb(82, 203, 203) !important;
+}
+
+.verpy{
+    border: 2px solid rgb(82, 203, 203);
+    color: rgb(82, 203, 203);
+    border-radius: 7px;
+    font-size: 25px;
+}
+.verpy:hover{
+    background-color: rgba(34, 203, 203, 0.4);
+    color: rgb(82, 203, 203);
+}
+
+.list-tec{
+    list-style-type: "▷ ";
+}
+
+.logd{
+    height: 162px;
+}
+.sun:hover{
+    cursor: pointer;
+}
+
+.card-body{
+    height: 210px !important; 
+}
+.verxp{
+    text-align: center;
+    width: 120px;
+    background-color: #0d6efd;
+}
+
+.verxp:hover{
+    background-color: #0b67f0;
+}
+.card-img-top{
+    transition: all 0.3s;
+}
+.card-img-top:hover{
+    z-index: 2;
+    border: 1px solid #000;
+    transform: scale(1.02);
+}
+
+@media screen and (min-width: 768px) {
+    .card{
+        height: 150px;
+        width: 33% !important;
+    }
+    .logd{
+        height: 182.25px;
+    }
+  }
